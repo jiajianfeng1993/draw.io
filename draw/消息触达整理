@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-07-30T08:55:52.734Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="Jctv4J-3gdIcFQLWBgFV" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-30T08:59:00.506Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="5KUGVynOJpUIIM4rTjcb" version="14.9.2" type="github">
   <diagram id="a87yZGmHZpDulnMRi4bl" name="Page-1">
     <mxGraphModel dx="1113" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -196,6 +196,21 @@
         </mxCell>
         <mxCell id="wW-HTo1LLKnpgLUR1M_D-81" value="Notice" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1071" y="950" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wW-HTo1LLKnpgLUR1M_D-88" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="wW-HTo1LLKnpgLUR1M_D-85" target="wW-HTo1LLKnpgLUR1M_D-87">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wW-HTo1LLKnpgLUR1M_D-85" value="消息回执" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="860" y="1120" width="570" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wW-HTo1LLKnpgLUR1M_D-87" value="打印Public日志" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1085" y="1260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wW-HTo1LLKnpgLUR1M_D-89" value="" style="shape=flexArrow;endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1144.41" y="1030" as="sourcePoint" />
+            <mxPoint x="1144.41" y="1100" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
