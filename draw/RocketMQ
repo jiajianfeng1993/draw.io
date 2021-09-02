@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-02T03:59:49.098Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="Y9njre46TWozQ6_FpE67" version="15.0.3" type="github">
+<mxfile host="app.diagrams.net" modified="2021-09-02T04:00:04.214Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.159 Safari/537.36" etag="_6Z7imLujH3_XXKfBNVm" version="15.0.3" type="github">
   <diagram id="HePgoVIWTDWwK9v0uGZN" name="Page-1">
     <mxGraphModel dx="946" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -768,7 +768,7 @@
         <mxCell id="pk8aVZ9vx04BRkOmeiYZ-301" value="message_end_time 消息结束时间" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="pk8aVZ9vx04BRkOmeiYZ-289" vertex="1">
           <mxGeometry y="130" width="445" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="pk8aVZ9vx04BRkOmeiYZ-294" value="task_status 0:待触发，1:查询中，2:查询完成，3:查询失败" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="pk8aVZ9vx04BRkOmeiYZ-289" vertex="1">
+        <mxCell id="pk8aVZ9vx04BRkOmeiYZ-294" value="status 0:待触发，1:查询中，2:查询完成，3:查询失败" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="pk8aVZ9vx04BRkOmeiYZ-289" vertex="1">
           <mxGeometry y="156" width="445" height="26" as="geometry" />
         </mxCell>
         <mxCell id="pk8aVZ9vx04BRkOmeiYZ-295" value="total_row 恢复的总行数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="pk8aVZ9vx04BRkOmeiYZ-289" vertex="1">
@@ -810,7 +810,7 @@
         <mxCell id="86a0tpuBRcvBKRiiJqM0-4" value="task_code 任务编码 " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="86a0tpuBRcvBKRiiJqM0-1">
           <mxGeometry y="52" width="445" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="86a0tpuBRcvBKRiiJqM0-7" value="task_status 0:待恢复，1:恢复中，2:恢复完成，3:恢复失败" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="86a0tpuBRcvBKRiiJqM0-1">
+        <mxCell id="86a0tpuBRcvBKRiiJqM0-7" value="status 0:待恢复，1:恢复中，2:恢复完成，3:恢复失败" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="86a0tpuBRcvBKRiiJqM0-1">
           <mxGeometry y="78" width="445" height="26" as="geometry" />
         </mxCell>
         <mxCell id="86a0tpuBRcvBKRiiJqM0-8" value="total_row 恢复的总行数" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="86a0tpuBRcvBKRiiJqM0-1">
