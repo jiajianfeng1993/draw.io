@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-01-06T08:01:32.591Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="-LEAH64usfHMJ_lMCZWz" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-01-07T09:45:11.843Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36" etag="QzmQOQtREhOhdN43CF-7" version="16.1.2" type="github">
   <diagram id="zbI2m9qwPM7i-162WsMr" name="Page-1">
-    <mxGraphModel dx="1816" dy="500" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1816" dy="502" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -28,8 +28,11 @@
         <mxCell id="dJGsxwTj0P6BNTw4QNRo-32" value="队列过期" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="dJGsxwTj0P6BNTw4QNRo-24">
           <mxGeometry x="265" y="50" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="dJGsxwTj0P6BNTw4QNRo-33" value="事件通知" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="dJGsxwTj0P6BNTw4QNRo-24">
+        <mxCell id="dJGsxwTj0P6BNTw4QNRo-33" value="消息存储" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="dJGsxwTj0P6BNTw4QNRo-24">
           <mxGeometry x="50" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJGsxwTj0P6BNTw4QNRo-107" value="消息消费(拉取、确认)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="dJGsxwTj0P6BNTw4QNRo-24">
+          <mxGeometry x="265" y="170" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="dJGsxwTj0P6BNTw4QNRo-1" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -64,10 +67,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dJGsxwTj0P6BNTw4QNRo-20" value="&lt;p style=&quot;line-height: 1.2&quot;&gt;配置模块&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
-          <mxGeometry x="200" y="480" width="1090" height="110" as="geometry" />
+          <mxGeometry x="200" y="480" width="560" height="110" as="geometry" />
         </mxCell>
         <mxCell id="dJGsxwTj0P6BNTw4QNRo-26" value="Apollo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="420" y="540" width="120" height="45" as="geometry" />
+          <mxGeometry x="230" y="540" width="120" height="45" as="geometry" />
         </mxCell>
         <mxCell id="dJGsxwTj0P6BNTw4QNRo-28" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="dJGsxwTj0P6BNTw4QNRo-18" target="dJGsxwTj0P6BNTw4QNRo-24">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -76,10 +79,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="dJGsxwTj0P6BNTw4QNRo-29" value="本地配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="880" y="540" width="120" height="45" as="geometry" />
+          <mxGeometry x="610" y="540" width="120" height="45" as="geometry" />
         </mxCell>
         <mxCell id="dJGsxwTj0P6BNTw4QNRo-30" value="动态配置" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="650" y="540" width="120" height="45" as="geometry" />
+          <mxGeometry x="420" y="540" width="120" height="45" as="geometry" />
         </mxCell>
         <mxCell id="dJGsxwTj0P6BNTw4QNRo-34" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
           <mxGeometry x="1000" y="200" width="280" height="260" as="geometry" />
@@ -204,11 +207,11 @@
         <mxCell id="dJGsxwTj0P6BNTw4QNRo-76" value="业务配置" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fad7ac;strokeColor=#b46504;" vertex="1" parent="1">
           <mxGeometry x="880" y="1080" width="660" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="dJGsxwTj0P6BNTw4QNRo-77" value="{&quot;dispatcher&quot;:[{&quot;value&quot;:&quot;bid1&quot;,&quot;threadNum&quot;:2&quot;,&quot;filter&quot;:&quot;ivrFilter&quot;,&quot;handle&quot;:&quot;ivrHandle&quot;,&quot;limiter&quot;:[{&quot;type&quot;:&quot;redis&quot;,&quot;info&quot;:{&quot;rate&quot;:10}}]},{&quot;value&quot;:&quot;bid2&quot;,&quot;threadNum&quot;:&quot;1&quot;},{&quot;value&quot;:&quot;bid3&quot;,&quot;threadNum&quot;:&quot;3&quot;}&lt;br&gt;}]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="dJGsxwTj0P6BNTw4QNRo-77" value="{&quot;filter&quot;:&quot;ivrFilter&quot;,&quot;handle&quot;:&quot;ivrHandle&quot;,&lt;br&gt;&quot;dispatcher&quot;:[{&quot;value&quot;:&quot;bid1&quot;,&quot;threadNum&quot;:2&quot;,&quot;limiter&quot;:[{&quot;type&quot;:&quot;redis&quot;,&quot;info&quot;:{&quot;rate&quot;:10}}]},{&quot;value&quot;:&quot;bid2&quot;,&quot;threadNum&quot;:&quot;1&quot;},{&quot;value&quot;:&quot;bid3&quot;,&quot;threadNum&quot;:&quot;3&quot;}&lt;br&gt;}]" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="920" y="1101.25" width="595" height="70" as="geometry" />
         </mxCell>
         <mxCell id="dJGsxwTj0P6BNTw4QNRo-78" value="key命名规则：&lt;br&gt;固定前缀:应用名称:场景名称:分割的字符串&lt;br&gt;队列有效期：1天，（每次放入消息时更新有效期）" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;" vertex="1" parent="1">
-          <mxGeometry x="550" y="1078.75" width="130" height="91.25" as="geometry" />
+          <mxGeometry x="550" y="1070" width="240" height="100" as="geometry" />
         </mxCell>
         <mxCell id="dJGsxwTj0P6BNTw4QNRo-79" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d0cee2;strokeColor=#56517e;" vertex="1" parent="1">
           <mxGeometry x="1280" y="790" width="230" height="280" as="geometry" />
@@ -251,7 +254,7 @@
             <mxPoint x="1300" y="1024.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="dJGsxwTj0P6BNTw4QNRo-92" value="public class DispatcherConfig {&lt;br&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;List&amp;lt;Dispatcher&amp;gt; dispatcher;&lt;br&gt;}&lt;br&gt;&lt;br&gt;public class Dispatcher&amp;nbsp;{&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;String value;//流量分发的Key&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Integer threadNum;//线程数量&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;String filter;//过滤的Bean名称，必须实现Filter接口&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;String handle; //处理的Bean名称，必须实现Handle接口&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;List&amp;lt;Limiter&amp;gt; limiter;//流量管控规则&lt;br&gt;}&lt;br&gt;public class Limiter{&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;String type; // 流量管控类型，令牌桶，固定时间窗口等&lt;br&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Map&amp;lt;String,Object&amp;gt; info// 各种限流算法需要的参数&lt;br&gt;}" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;verticalAlign=top;align=left;" vertex="1" parent="1">
+        <mxCell id="dJGsxwTj0P6BNTw4QNRo-92" value="public class DispatcherConfig {&lt;br&gt;&lt;span&gt;	&lt;/span&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;List&amp;lt;Dispatcher&amp;gt; dispatcher;&lt;br&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;String filter;//过滤的Bean名称，必须实现Filter接口&lt;br&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;String handle; //处理的Bean名称，必须实现Handle接口&lt;br&gt;}&lt;br&gt;&lt;br&gt;public class Dispatcher&amp;nbsp;{&lt;br&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;String value;//流量分发的Key&lt;br&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Integer threadNum;//线程数量&lt;br&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;List&amp;lt;Limiter&amp;gt; limiter;//流量管控规则&lt;br&gt;}&lt;br&gt;public class Limiter{&lt;br&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;String type; // 流量管控类型，令牌桶，固定时间窗口等&lt;br&gt;&lt;span&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre&quot;&gt;	&lt;/span&gt;Map&amp;lt;String,Object&amp;gt; info// 各种限流算法需要的参数&lt;br&gt;}" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;darkOpacity=0.05;verticalAlign=top;align=left;" vertex="1" parent="1">
           <mxGeometry x="1560" y="970" width="330" height="223.75" as="geometry" />
         </mxCell>
         <mxCell id="dJGsxwTj0P6BNTw4QNRo-93" value="filter" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;" vertex="1" parent="1">
@@ -271,6 +274,15 @@
         </mxCell>
         <mxCell id="dJGsxwTj0P6BNTw4QNRo-99" value="IVR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;gradientColor=#ea6b66;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="1600" y="881" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="dJGsxwTj0P6BNTw4QNRo-103" value="&lt;p style=&quot;line-height: 1.2&quot;&gt;Job模块&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="780" y="480" width="500" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="dJGsxwTj0P6BNTw4QNRo-104" value="队列报警" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="827" y="540" width="120" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="dJGsxwTj0P6BNTw4QNRo-105" value="消息重试" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="540" width="120" height="45" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
