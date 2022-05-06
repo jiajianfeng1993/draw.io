@@ -1,1 +1,135 @@
-<mxfile host="app.diagrams.net" modified="2022-05-06T08:31:41.375Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" version="18.0.1" etag="5z80se2NdeVWUVhlq29R" type="github"><diagram id="P5kLG4Li_9ilP0SgBb8K">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-05-06T08:47:24.725Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36" etag="tduHg3DaXFzRtYsakoW1" version="18.0.1" type="github">
+  <diagram id="P5kLG4Li_9ilP0SgBb8K" name="Page-1">
+    <mxGraphModel dx="1298" dy="724" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rGrlHXua09ZmH3heSEM_-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rGrlHXua09ZmH3heSEM_-1" target="rGrlHXua09ZmH3heSEM_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-1" value="开始" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rGrlHXua09ZmH3heSEM_-3" target="rGrlHXua09ZmH3heSEM_-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-41" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rGrlHXua09ZmH3heSEM_-28">
+          <mxGeometry x="-0.175" y="3" relative="1" as="geometry">
+            <mxPoint x="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="rGrlHXua09ZmH3heSEM_-3" target="rGrlHXua09ZmH3heSEM_-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-40" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rGrlHXua09ZmH3heSEM_-39">
+          <mxGeometry x="-0.1862" y="4" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-3" value="参数校验" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="180" width="135" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-29" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rGrlHXua09ZmH3heSEM_-4" target="rGrlHXua09ZmH3heSEM_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-4" value="Excel解析转Bean" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="276" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rGrlHXua09ZmH3heSEM_-5" target="rGrlHXua09ZmH3heSEM_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-5" value="根据疾病编码批量查询数据库记录" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="360" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rGrlHXua09ZmH3heSEM_-6" target="rGrlHXua09ZmH3heSEM_-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rGrlHXua09ZmH3heSEM_-6" target="rGrlHXua09ZmH3heSEM_-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rGrlHXua09ZmH3heSEM_-6" target="rGrlHXua09ZmH3heSEM_-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-6" value="遍历Excel中的数据" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="446" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rGrlHXua09ZmH3heSEM_-7" target="rGrlHXua09ZmH3heSEM_-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-7" value="数据库中是否已经存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="566" width="135" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rGrlHXua09ZmH3heSEM_-8" target="rGrlHXua09ZmH3heSEM_-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-8" value="Excel中前面的行是否已经存在" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="322.5" y="566" width="135" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rGrlHXua09ZmH3heSEM_-9" target="rGrlHXua09ZmH3heSEM_-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="706" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-20" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rGrlHXua09ZmH3heSEM_-18">
+          <mxGeometry x="0.7235" y="3" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="679" as="sourcePoint" />
+            <mxPoint x="290" y="727" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="290" y="687" />
+              <mxPoint x="290" y="687" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-21" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rGrlHXua09ZmH3heSEM_-19">
+          <mxGeometry x="-0.1042" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-9" value="字段信息是否为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="566" width="135" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="rGrlHXua09ZmH3heSEM_-10" target="rGrlHXua09ZmH3heSEM_-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-10" value="添加到不合法记录中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="726" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rGrlHXua09ZmH3heSEM_-11" target="rGrlHXua09ZmH3heSEM_-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-11" value="添加合法记录中" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="457.5" y="726" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rGrlHXua09ZmH3heSEM_-12" target="rGrlHXua09ZmH3heSEM_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-12" value="批量插入数据库" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="457.5" y="806" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="rGrlHXua09ZmH3heSEM_-13" target="rGrlHXua09ZmH3heSEM_-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-13" value="生成Excel上传cos" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="806" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="rGrlHXua09ZmH3heSEM_-14" target="rGrlHXua09ZmH3heSEM_-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-14" value="组装返回结果" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="881" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-15" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="337.5" y="960" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rGrlHXua09ZmH3heSEM_-38" value="结束" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="530" y="185" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
